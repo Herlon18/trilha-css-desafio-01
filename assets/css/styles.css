@@ -4,11 +4,6 @@ body {
   background-color: black;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
-
 p {
   color: white;
 }
@@ -159,7 +154,7 @@ footer {
   gap: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2));
 }
-footer > p > a {
+footer a {
   text-decoration: none;
   color: #33A8DB;
   font-weight: 700;
